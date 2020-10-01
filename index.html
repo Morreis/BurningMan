@@ -1,35 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Burning Man</title>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <nav>
-                <h1 class="logo"><img src="assets/logo.svg" alt="logo picture"></h1>
-                <ul class="menu_list">
-                    <li class="menu_item"><a href="#">home</a></li>
-                    <li class="menu_item"><a href="#">about</a></li>
-                    <li class="menu_item"><a href="#">tickets</a></li>
-                    <li class="menu_item"><a href="#">contacts</a></li>
-                </ul>
-                <a class="number" href="tel:+1 893 839-23-64">+1 893 839-23-64</a>
-            </nav>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="container">
+        <nav class="nav">
+           <img src="assets/logo.svg" alt="burning man" class="logo" />
+          <ul class="menu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">tickets</a></li>
+            <li><a href="#">contacts</a></li>
+          </ul>
+          <a href="tel:+18938392364" class="tel">+1 893 839-23-64</a>
+        </nav>
+        <!-- /nav -->
+        <div class="offer">
+          <p>Not the event. The life</p>
+          <h1>Burning MAN</h1>
+          <a href="#" class="btn">Book the tickets</a>
         </div>
+        <!-- /offer -->
+      </div>
+      <!-- /container -->
     </header>
-    <div class="about">
-        <div class="container">
-
-        </div>      
-    </div>
-    <div class="footer">
-        <div class="container">
-
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about_title">
+          <p>about the event</p>
+          <div class="about_sub">
+            <div class="society">
+              <p class="title">rebuilding the society</p>
+              <p class="subtitle">
+                Burning Man is a network of people inspired by the values
+                reflected in the Ten Principles and united in the pursuit of a
+                more creative and connected existence in the world. Throughout
+                the year we work to build Black Rock City, home of the largest
+                annual Burning Man gathering, and nurture the distinctive
+                culture emerging from that experience.
+              </p>
+            </div>
+            <div class="drive_us">
+              <p class="title">this drives us</p>
+              <p class="subtitle subtitle_drive_us">
+                Burning Man Project will bring experiences to people in grand,
+                awe-inspiring and joyful ways that lift the human spirit,
+                address social problems, and inspire a sense of culture,
+                community, and civic engagement. Burning Man provides
+                infrastructural tools and frameworks to support local
+                communities in applying the Ten Principles through six
+                interconnected program areas, including Arts, Civic Involvement,
+                Culture, Education, Philosophical Center, and Social Enterprise.
+              </p>
+            </div>
+          </div>
+          <div class="about_img">
+            <img src="assets/img1.jpg" alt="lamp" />
+            <img src="assets/img2.jpg" alt="van" class="img2" />
+            <img src="assets/img3.jpg" alt="pair" class="img2" />
+          </div>
         </div>
-    </div>
-</body>
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="footer_title">
+          <p class="copyright">©1989-2020 burning man project</p>
+          <p class="wayup">WAYUP & Андрей Гаврилов</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
