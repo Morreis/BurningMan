@@ -1,0 +1,43 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+html {
+	font-size: 10px;
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 1600px;
+	margin:0 auto;
+	background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+a {
+	margin: 0;
+	padding: 0;
+}
+.menu_item>a:link, .menu_item>a:visited, .menu_item>a:active {
+	text-decoration: none;
+	color:#fff;
+}
+/* .menu_item_active>a:link, .menu_item_active>a:visited, .menu_item_active>a:active{
+	text-decoration: none;
+	color:#f06c64;
+} */
+p {
+	margin: 0;
+}
+ 
+ul {
+	margin: 0;
+	padding: 0;
+}
