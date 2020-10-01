@@ -1,0 +1,220 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+/* html {
+	font-size: 10px;
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 1600px;
+	margin:0 auto;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+a {
+	margin: 0;
+	padding: 0;
+}
+ .menu_item>a:link, .menu_item>a:visited, .menu_item>a:active {
+	text-decoration: none;
+	color:#fff;
+} 
+
+p {
+	margin: 0;
+}
+ 
+ul {
+	margin: 0;
+	padding: 0;
+} */
+
+/* _________________________________________________________________________________________________________________________ */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: url(assets/header-bg.jpg) no-repeat center top / cover;
+  color: #fff;
+}
+header a {
+  color: #fff;
+}
+.logo {
+    display: block;
+  margin-right: 69px;
+  background-image: url(assets/logo.svg);
+}
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.menu li {
+  margin-right: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.tel {
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding-top: 57px;
+}
+.offer {
+  padding-bottom: 337px;
+}
+.offer p {
+  margin-top: 216px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 44px;
+}
+
+.offer h1 {
+  font-size: 100px;
+  line-height: 147px;
+  text-transform: uppercase;
+  margin-top: -12px;
+  margin-bottom: 38px;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  border: solid 1px #fff;
+  text-decoration: none;
+  padding: 15px 48px 15px 52px;
+}
+.btn:hover {
+  border: solid 1px #331300;
+  box-shadow: 0 0 10px rgba(4, 4, 4, 4);
+  color: #331300;
+  transition: 0.2s linear;
+  background-color: #cc5d1d;
+}
+
+.about_title {
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+  line-height: 73px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 110px;
+}
+.about_title p {
+  margin-bottom: 34px;
+}
+.about_sub {
+  display: flex;
+}
+.society {
+  width: 50%;
+  margin-right: 36px;
+}
+
+.drive_us {
+  width: 50%;
+}
+.title {
+  font-family: "Anton", sans-serif;
+  font-size: 25px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  text-transform: none;
+}
+
+.about_img {
+  margin-top: 41px;
+}
+
+.img2 {
+  margin-left: 18px;
+}
+
+.copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.wayup {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 65px;
+}
+.footer_title{
+    display: flex;
+    margin-top: 83px;
+}
+
+li a:hover {
+    color: #cc5d1d;
+    transition: 0.2s linear;
+}
+.tel:hover {
+    color: #cc5d1d;
+    transition: 0.2s linear;
+}
+
