@@ -75,9 +75,14 @@ header a {
   color: #fff;
 }
 .logo {
-    display: block;
+  display: block;
   margin-right: 69px;
   background-image: url(assets/logo.svg);
+}
+
+.logo:hover {
+  background-image: url(assets/logo_fff.svg);
+  transition: 0.2s linear;
 }
 .menu {
   display: flex;
@@ -204,17 +209,30 @@ ul {
   line-height: 20px;
   margin-left: 65px;
 }
-.footer_title{
-    display: flex;
-    margin-top: 83px;
+.footer_title {
+  display: flex;
+  margin-top: 83px;
 }
 
 li a:hover {
-    color: #cc5d1d;
-    transition: 0.2s linear;
+  color: #cc5d1d;
+  transition: 0.2s linear;
 }
 .tel:hover {
-    color: #cc5d1d;
-    transition: 0.2s linear;
+  color: #cc5d1d;
+  transition: 0.2s linear;
 }
 
+/* section.your-life > .footer > .footer-icon:hover {
+  color: #00afdb;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+section.your-life > .footer > .footer-icon.instagram {
+  background-image: url("assets/insta_fff.svg");
+}
+
+section.your-life > .footer > .footer-icon.instagram:hover {
+  background-image: url("assets/insta_col.svg");
+} */
